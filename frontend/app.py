@@ -56,7 +56,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ─── Banner ───
-banner = Image.open("../backend/assets/banner.png")
+banner = Image.open("frontend/media/banner.png")
 st.image(banner, use_container_width=True)
 
 st.markdown("---")

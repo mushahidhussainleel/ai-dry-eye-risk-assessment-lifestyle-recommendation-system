@@ -21,7 +21,6 @@ AI Dry Eye Risk Assessment & Lifestyle Recommendation System/
 │
 ├── backend/
 │   ├── assets/
-│   │   ├── banner.png
 │   │   ├── eda_boxplot.png
 │   │   ├── eda_histogram.png
 │   │   ├── eda_heatmap.png
@@ -48,7 +47,10 @@ AI Dry Eye Risk Assessment & Lifestyle Recommendation System/
 │
 ├── frontend/
 │   ├── app.py
-│   └── requirements.txt
+│   ├── requirements.txt
+│   │
+│   └── media/
+│       └── banner.png
 │
 ├── README.md
 └── .gitignore
