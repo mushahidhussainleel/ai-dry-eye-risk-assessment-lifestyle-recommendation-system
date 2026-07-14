@@ -191,7 +191,7 @@ if submitted:
     with st.spinner("Analyzing your data..."):
         try:
             response = requests.post(
-                "http://127.0.0.1:8000/predict",
+                "https://dry-eye-api-naci.onrender.com/predict",
                 json=payload
             )
             result = response.json()

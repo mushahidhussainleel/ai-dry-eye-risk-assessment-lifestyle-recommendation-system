@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.responses import HTMLResponse
-from schemas import EyeInput, PredictionResponse
-from predict import predict_dry_eye
+from .schemas import EyeInput, PredictionResponse
+from .predict import predict_dry_eye
 
 app = FastAPI(
     title="AI Dry Eye Risk Assessment & Lifestyle Recommendation System",

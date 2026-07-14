@@ -1,8 +1,8 @@
 import joblib
 import numpy as np
 from pathlib import Path
-from schemas import EyeInput, PredictionResponse
-from utils import preprocess_input, get_risk_level
+from .schemas import EyeInput, PredictionResponse
+from .utils import preprocess_input, get_risk_level
 
 # Model load — relative path
 BASE_DIR = Path(__file__).resolve().parent.parent

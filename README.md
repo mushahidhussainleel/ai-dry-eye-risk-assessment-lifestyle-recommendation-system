@@ -141,7 +141,7 @@ Actual Yes        160              2447
 
 ### 1 — Clone Repository
 ```bash
-git clone https://github.com/mushahidhussainleel/dry-eye-risk-assessment.git
+git clone https://github.com/mushahidhussainleel/ai-dry-eye-risk-assessment-lifestyle-recommendation-system.git
 cd dry-eye-risk-assessment
 ```
 
