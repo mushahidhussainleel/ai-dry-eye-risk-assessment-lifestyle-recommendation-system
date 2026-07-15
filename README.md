@@ -37,6 +37,10 @@ Dry Eye Disease is increasingly common due to modern lifestyle factors such as e
 > welcome to collaborate — the pipeline is fully ready and can be 
 > retrained with improved data at any time.
 
+### 🔒 Privacy Notice
+
+This application does not permanently store or share any user health information submitted for predictions.
+
 ---
 
 ## 🗂️ Project Structure

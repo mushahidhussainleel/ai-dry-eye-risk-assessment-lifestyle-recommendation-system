@@ -4,8 +4,15 @@ from .schemas import EyeInput, PredictionResponse
 from .predict import predict_dry_eye
 
 app = FastAPI(
-    title="AI Dry Eye Risk Assessment & Lifestyle Recommendation System",
-    description="Predicts Dry Eye Disease risk based on lifestyle and health data.",
+    title="AI Dry Eye Risk Assessment API",
+    description="""
+    AI-powered Dry Eye Disease Risk Assessment System.
+    
+    ⚠️ **Disclaimer:** This API is for educational purposes only.
+    Predictions should NOT be used as medical advice or 
+    for real clinical decisions. Always consult a qualified 
+    eye specialist for medical concerns.
+    """,
     version="1.0.0"
 )
 
